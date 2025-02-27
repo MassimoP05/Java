@@ -15,5 +15,6 @@ public class Names {
 
     System.out.println("hello, my name is " + fullName + ".");
     
+    myInput.close();
     }
 }
