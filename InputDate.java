@@ -25,7 +25,7 @@ public class InputDate {
         System.out.println("European Format: " + day + ", " + date + ", " + month + ", " + year);
         System.out.println("Japanese Format: " + year + ", " + month + ", " + date + ", " + day);
         
-        myInput.close
+        myInput.close();
         
     }
 }

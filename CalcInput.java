@@ -22,6 +22,9 @@ public class CalcInput {
         total = num1 + num2 + num3 + num4;
         
         System.out.println("Total: " +total);
+   
+        myInput.close();
     }
+
 
 }
