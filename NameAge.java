@@ -10,7 +10,7 @@ public class NameAge {
         int Age1, Age2, Age3, Age4, Age5;
 
         System.out.println("First Person's First Name: ");
-        Name1 = myInput.nextLine();
+        Name1 = myInput.next();
         System.out.println("What is " + Name1 + "'s Age: " );
         Age1 = myInput.nextInt();
         
