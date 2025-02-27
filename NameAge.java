@@ -9,30 +9,35 @@ public class NameAge {
         String Name1, Name2, Name3, Name4, Name5;
         int Age1, Age2, Age3, Age4, Age5;
 
-        System.out.println("First Person's First Name: ");
-        Name1 = myInput.next();
+        System.out.println("First Person's Name: ");
+        Name1 = myInput.nextLine();
         System.out.println("What is " + Name1 + "'s Age: " );
         Age1 = myInput.nextInt();
+        myInput.nextLine();
         
-        System.out.println("Second Person's First Name: ");
-        Name2 = myInput.next();
+        System.out.println("Second Person's Name: ");
+        Name2 = myInput.nextLine();
         System.out.println("What is " + Name2 + "'s Age: " );
         Age2 = myInput.nextInt();
+        myInput.nextLine();
 
-        System.out.println("Third Person's First Name: ");
-        Name3 = myInput.next();
+        System.out.println("Third Person's Name: ");
+        Name3 = myInput.nextLine();
         System.out.println("What is " + Name3 + "'s Age: " );
         Age3 = myInput.nextInt();
+        myInput.nextLine();
 
-        System.out.println("Forth Person's First Name: ");
-        Name4 = myInput.next();
+        System.out.println("Forth Person's Name: ");
+        Name4 = myInput.nextLine();
         System.out.println("What is " + Name4 + "'s Age: " );
         Age4 = myInput.nextInt();
+        myInput.nextLine();
 
-        System.out.println("Fifth Person's First Name: ");
-        Name5 = myInput.next();
+        System.out.println("Fifth Person's Name: ");
+        Name5 = myInput.nextLine();
         System.out.println("What is " + Name5 + "'s Age: " );
         Age5 = myInput.nextInt();
+        myInput.nextLine();
 
         System.out.println("-------------------------------------------------");
 
