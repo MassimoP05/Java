@@ -18,6 +18,6 @@ public class Infringement {
             System.out.println("Was it a 110km/h zone?");
             zone = myInput.nextLine();
             myInput.nextLine(); 
-        } if ()
+        }
     }
 }
