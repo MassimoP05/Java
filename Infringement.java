@@ -10,7 +10,7 @@ public class Infringement {
         System.out.println("Enter the exceeding speed limit (km/h):");
         speed = myInput.nextDouble();
 
-        System.out.println("was it in a 110 km/h zone (yes/no):");
+        System.out.println("Was it in a 110 km/h zone (yes/no):");
         zone = myInput.next().toLowerCase(); // .toLowerCase makes the answer lowercase
 
         if (zone.equals("yes") && speed >= 20 && speed <= 24) { // .equals() checks if the thing in the brackets is indeed the variable
@@ -40,7 +40,7 @@ public class Infringement {
         }
 
         System.out.println("You were going " + speed + " over the legal speed limit.");
-        System.out.println("The fine you will recieve is $ " + fine);
+        System.out.println("The fine you will recieve is $" + fine);
         System.out.println("The number of demerit points you will recieve is " + demerit);
         System.out.println("The suspension you will recieve is " + suspension + " months");
 
