@@ -45,8 +45,10 @@ public class ShopFront {
         } 
         System.out.println("Your total will be " + total);
         System.out.println("Your contact number for the tax invoice is +61 " + contact);
+
+        myInput.close();
     }
 
-
+        
     
 }
