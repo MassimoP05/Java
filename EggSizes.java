@@ -12,7 +12,7 @@ public class EggSizes {
 
 
         if (weight >= 72) {
-            size = "King-Size";
+            size = "King-Size"; 
         } else if (weight >= 68) {
             size = "Jumbo";
         } else if (weight >= 60) {
