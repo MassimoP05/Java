@@ -9,6 +9,8 @@ public class LoopCalc {
         
         System.out.println("How many numbers do you wanna count? ");
         count = myInput.nextInt();
+        myInput.close();
+
 
         for (i = 1; i <= count; i++) { // Checking what number it is upto in the count
             System.out.print("Enter number " + i + ": "); // Prints out the count number
@@ -18,7 +20,6 @@ public class LoopCalc {
         }
 
         System.out.println("Final total: " + total); // Prints the final total after the for statment is finished
-        myInput.close();
 
     }
 }

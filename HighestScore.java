@@ -13,6 +13,7 @@ public class HighestScore {
         for (i = 1; i <= classSize; i++){
             System.out.println("Enter the " + i + " person's grade");
             grade = myInput.nextDouble();
+            myInput.close();
 
             if (grade > highScore) {
                 highScore = grade;
