@@ -4,14 +4,14 @@ public class ShopFront {
     public static void main(String[] args) {
         Scanner myInput = new Scanner(System.in);
 
-        String itemFood;
+        String itemFood, contact;
 
-        int itemCost, contact;
+        int itemCost;
         Double total = 0.0, quantity = 0.0;
 
 
         System.out.println("WELCOME TO SHOPFRONT!");
-        System.out.println("ITEMS ON IN STORE TODAYchciken");
+        System.out.println("ITEMS IN STORE TODAY INCLUDE:");
         System.out.println("-------------------------------------");
         System.out.println("Beef        $10 p/kg");
         System.out.println("Chicken     $8 p/kg");
@@ -24,7 +24,7 @@ public class ShopFront {
         System.out.println("How many kg are you buying?");
         quantity = myInput.nextDouble();
         System.out.println("What is your best contact number?");
-        contact = myInput.nextInt();
+        contact = myInput.next();
 
         if (itemFood.equals("beef")) {
             itemCost = 10;
@@ -43,8 +43,8 @@ public class ShopFront {
             itemCost = 3;
             total = itemCost * quantity;
         } 
-        System.out.println("Your total will be " + total);
-        System.out.println("Your contact number for the tax invoice is +61 " + contact);
+        System.out.println("Your total will be $ " + total);
+        System.out.println("Your contact number for the tax invoice is " + contact);
 
         myInput.close();
     }
