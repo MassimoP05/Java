@@ -19,7 +19,7 @@ public class Infringement {
         } else if (speed < 9) {
             fine = 231;
             demerit = 1;
-        } else if (speed >= 10 && speed<= 24 ) {
+        } else if (speed >= 10 && speed <= 24 ) {
             fine = 370;
             demerit = 3;
         } else if (speed >= 25 && speed <= 29) {
