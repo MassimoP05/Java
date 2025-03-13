@@ -9,7 +9,7 @@ public class pracQues3 {
         int total;
         System.out.println("Pick a number to do a multiplication table of:");
         num = myInput.nextInt();
-        
+        myInput.close();
 
         
         while (i <= 10) {
