@@ -48,7 +48,18 @@ public class ArrayTesting {
 
         int[] array = {3,7,4,6,9,1,2,3,2,4};    
         // Arrays.sort(array); //sorting in acending order
-        Arrays.fill(array, 0); //changes all values to 0 in the choosen array
+        // Arrays.fill(array, 0); //changes all values to 0 in the choosen array
+        array[0] = 1;
+        array[1] = 1;
+        array[2] = 1;
+        array[3] = 1;
+        array[4] = 1;
+        array[5] = 1;
+        array[6] = 1;
+        array[7] = 1;
+        array[8] = 1;
+        array[9] = 1; // changes individual spots in the array
+
         System.out.println(Arrays.toString(array)); // converts the array to sting while printing it 
 
     }
