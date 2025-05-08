@@ -4,7 +4,7 @@ public class Assessment2Project2 {
     public static void main(String[] args) {
 
         ArrayList<String> namesList = new ArrayList<>();
-
+ 
         namesList.add("Massimo");
         namesList.add("Ryan");
         namesList.add("Onur");

@@ -6,7 +6,8 @@ public class Assessment2Project3 {
         double tScore = 0;
         double oScore = 0;
 
-        
+        System.out.println("Welcome to the Game Scoring Percentage Calculator!");
+               
         // Game 1
         System.out.println("Game 1");
         System.out.print("Enter your team's score: ");
